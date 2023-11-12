@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyHello from './components/MyHello';
+import EventBasic from './components/EventBasic';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,10 @@ root.render(
 );
 
 root.render(
-  <MyHello myName="鈴木"/>
+  <>
+    <MyHello myName="鈴木" />
+    <EventBasic type="time" />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
