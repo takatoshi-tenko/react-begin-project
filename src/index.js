@@ -7,6 +7,7 @@ import MyHello from './components/MyHello';
 import EventBasic from './components/EventBasic';
 import StateForm from './components/StateForm'
 import FormTextarea from './components/FormTextarea'
+import FormRadio from './components/FormRadio'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ root.render(
     <EventBasic type="time" />
     <StateForm />
     <FormTextarea />
+    <FormRadio />
   </>
 );
 reportWebVitals();
