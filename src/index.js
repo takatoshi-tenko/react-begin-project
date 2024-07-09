@@ -8,6 +8,8 @@ import EventBasic from './components/EventBasic';
 import StateForm from './components/StateForm'
 import FormTextarea from './components/FormTextarea'
 import FormRadio from './components/FormRadio'
+import StateNest from './components/StateNest';
+import StateTodo from './components/StateTodo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +26,8 @@ root.render(
     <StateForm />
     <FormTextarea />
     <FormRadio />
+    <StateNest/>
+    <StateTodo />
   </>
 );
 reportWebVitals();
