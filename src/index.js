@@ -10,6 +10,8 @@ import FormTextarea from './components/FormTextarea'
 import FormRadio from './components/FormRadio'
 import StateNest from './components/StateNest';
 import StateTodo from './components/StateTodo';
+import FormBasic from './components/FormBasic';
+import ProfilerBasic from './components/ProfilerBasic';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,13 +23,15 @@ root.render(
 
 root.render(
   <>
-    <MyHello myName="鈴木" />
+    {/* <MyHello myName="鈴木" />
     <EventBasic type="time" />
     <StateForm />
     <FormTextarea />
     <FormRadio />
     <StateNest/>
-    <StateTodo />
+    <StateTodo /> */}
+    <FormBasic />
+    <ProfilerBasic />
   </>
 );
 reportWebVitals();
