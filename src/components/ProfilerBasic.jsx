@@ -8,6 +8,7 @@ export default function ProfilerBasic() {
     console.log('phase: ', phase);
     console.log('actualDuration: ', actualDuration);
     console.log('baseDuration: ', baseDuration);
+    
     console.log('startTime: ', startTime);
     console.log('endTime', endTime);
   };
